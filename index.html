@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="sk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>15.3.1</title>
+  </head>
+
+  zadaj text<br/>
+  <textarea id="textA"></textarea><br/>
+
+  <button type = "button" onclick="klikloSaTlacitko(event)" >Spustenie analýzy →
+</button><br/>
+
+  <p>↓Dĺžka zadaného textu↓</p>
+  <input type="number" id="dlzka" readonly/><br/>
+
+  <p>↓Dĺžka zadaného textu bez medzier↓</p>
+  <input type="number" id="dlzkaBM" readonly/><br/>
+
+  <p>↓Počet číslic v texte↓</p>
+  <input type="text" id="cislaText" readonly/><br/>
+
+  <p>↓Najdlhšie slovo(slová)↓</p>
+  <input type="text" id="nSlovo" readonly/><br/>
+    <p>↓Dĺžka najdlhšieho slova↓</p>
+  <input type="number" id="dSlovo" readonly/><br/>
+
+
+  ↓Vyhľadávanie↓ <br/>
+  <textarea id="textSearch"></textarea><br/>
+
+  <button type = "button" id="" onclick="button2(event)">Spustiť vyhľadávanie →</button><br/>
+
+  ↓Výsledok vyhľadávania↓<br/>
+  <input type="text" id="searchRes" readonly/><br/>
+
+  <button type = "button" id="" onclick="replaceCypher(event)">Zašifruj →</button><br/>
+
+  <input type="text" id="cypherResult" readonly/>
+
+
+  <script src="./main.js"></script>
+
+  </body>
+</html>
